@@ -12,7 +12,6 @@ body {
     font-size: 14px;
     background: var(--hero-color);
     letter-spacing: 0.03em;
-    width: 1600px; 
 }
 h1,h2,h3,p {
     margin: 0;
@@ -110,30 +109,37 @@ ul {
 
 .section {
     background: var(--background-main);
-    padding-bottom: 94px;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 
 /* заказ */
 .bg-order {
     background: var(--background-black)
 }
+.bg-order {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero {
+    text-align: center;
+}
 
 .hero .title {
-    margin: 200px 452px 30px;
+    margin-bottom: 20px;
     color: var(--hero-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .hero .btn {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 0 auto 200px;
-    display: block;
+    display: inline-block;
     
     color: var(--hero-color);
     font-family: inherit;
@@ -150,6 +156,9 @@ ul {
 }
 
 /* преимущества */
+.diferent {
+    padding-bottom: 0;
+}
 .none {
     display: none;
 }
@@ -176,7 +185,7 @@ ul {
 
 .section-title {
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.16;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -206,8 +215,12 @@ ul {
     margin-right: 30px;
 }
 
+.worker {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .list-team .name {
-    margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -217,7 +230,6 @@ ul {
     
 }
 .list-team .job {
-    margin-bottom: 30px;
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -273,7 +285,6 @@ ul {
 .button {
     padding: 6px 22px;
 
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -296,35 +307,12 @@ ul {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    
-}
-
-.cards-title {
-    padding-top: 20px;
-    padding-left: 24px;
-
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    text-align: left;
-}
-.cards-text {
-    margin-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-    text-align: left;
 }
 
 .cards .item {
     margin-right: 30px;
     margin-bottom: 30px;
     background: var(--hero-color);
-    
 }
 
 .cards .item:nth-child(3n) {
@@ -336,6 +324,26 @@ ul {
 }
 
 .border {
+    padding-left: 24px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
     border: 1px solid #EEEEEE;
     border-top: 1px solid var(--hero-color);
 }
+
+.cards-title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.cards-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+
